@@ -1,0 +1,11 @@
+console.log("Sorry");
+var x = document.querySelector('h1');
+x.innerHTML = "personal info";
+var y = document.querySelector('#about_me');
+var z = y.querySelector('h1');
+z.innerHTML = "Know me";
+var a = document.querySelector('ul');
+var b = a.querySelector('li:nth-child(1)');
+b.innerHTML = "Personal INFO";
+var c = a.querySelector('li:nth-child(2)');
+c.innerHTML = "Know me";
